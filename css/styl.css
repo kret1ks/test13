@@ -1,0 +1,110 @@
+:root {
+    --header-text: #1B1A1A;
+    --happy-title: #FFF;
+    --title-color: #1B1A1A;
+    --adittional-text: #645C55;
+    --adittion-title: #403E3B;
+    --happy-text: #ECE7E4;
+}
+
+body {
+    font-family: Poppins;
+}
+
+.header-link {
+    color: var(--header-text);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.header-button {
+    color: var(--happy-title);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+    background-color: var(--header-text);
+}
+
+.hero {
+    background-color: var(--happy-text);
+}
+
+.hero-logo {
+    color: var(--adittional-text);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.hero-title {
+    color: var(--header-text);
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+.hero-description {
+    color: var(--adittion-title);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.hero-button {
+    color: var(--header-text);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+}
+
+.firm {
+    background-color: var(--happy-title);
+}
+
+.firm-title {
+    color: var(--adittion-title);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.18;
+
+}
+
+.firm-text {
+    color: var(--adittion-title);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.firm-desk {
+    color: var(--adittion-title);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.firm-excerpt {
+    color: var(--adittion-title);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.firm-name {
+    color: var(--header-text);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.53;
+}
+
+.firm-position {
+    color: var(--adittional-text);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+}
